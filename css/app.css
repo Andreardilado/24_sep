@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    margin: 0px;
+    padding: 0px;
+}
+
+main section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*contenedor1*/
+main section .container:nth-child(1) {
+    width: 100%;
+    display: flex;
+    background-color: rgb(190, 157, 221);
+}
+
+main section .container .row:nth-child(1) {
+    background-color: rgb(190, 157, 221);
+    width: 50%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+main section .container .row:nth-child(1) img {
+    width: 80%;
+}
+
+main section .container .row:nth-child(2) {
+    width: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+/*contenedor2*/
+main section .container:nth-child(2) {
+    width: 100%;
+    display: flex;
+    background-color: rgb(231, 205, 231);
+}
+
+main section .container:nth-child(2) div {
+    width: 33.33%;
+}
+
+main section .container:nth-child(2) div h3 {
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main section .container:nth-child(2) div figure {
+    width: 100%;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+main section .container:nth-child(2) div:nth-child(1) figure img {
+    width: 100%;
+}
+
+main section .container:nth-child(2) div:nth-child(2) figure img {
+    width: 116%;
+}
+
+main section .container:nth-child(2) div:nth-child(3) figure img {
+    width: 114%;
+}
+
+/*contenedor 3*/
+
+main section .container:nth-child(3) {
+    width: 100%;
+    display: flex;
+}
+
+main section .container:nth-child(3) div{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section .container:nth-child(3) div h2{
+    font-size: 2.4em;
+    background-color: rgb(231, 205, 231);
+}
+
+main section .container:nth-child(3) div:nth-child(1){
+    background-image: url('https://http2.mlstatic.com/D_NQ_NP_879264-MLM26965685970_032018-O.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main section .container:nth-child(3) div:nth-child(2){
+    background-image: url('https://aws.admagazine.com/prod/designs/v1/assets/1200x628/89771.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
